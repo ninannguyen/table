@@ -1,0 +1,41 @@
+table{
+    border-collapse: collapse;
+    border-style: double;
+    border-width: 10px;
+}
+td, th, tr{
+    border: 1px solid black;
+    padding: .5rem;
+}
+
+tr:hover{
+    background-color: #D4C3FF;
+
+}
+table.data{
+    background:  #C3F5EA;
+    height: 150px;
+    width: 100%;
+    padding: 50px;
+}
+th{
+    background-color: rgb(75, 196, 170);
+}
+td{
+    text-align: center;
+}
+
+/* tictactoe */
+#top{
+    border-top: transparent;
+}
+.mid{
+    border-top-style: none;
+    border-top: none;
+    
+}
+.bot{
+    border-bottom-style: none;
+    border-bottom: none;
+
+}
